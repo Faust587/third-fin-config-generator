@@ -1,0 +1,254 @@
+{
+  "______________APP______________": "API Parameters",
+  "AppName": "Bowmore",
+  "UserSessionTimeout": 600,
+  "______________API______________": "API Parameters",
+  "RootApiUrl": "https://apitdw.thirdplatformservices.co.uk/",
+  "Origin": "https://achievinglifesambition.bowmoream.com/",
+  "SystemStatusURL": "/user/lastlogin",
+  "______________DESIGN______________": "Design Parameters",
+  "BrandColor": "#4C6B49",
+  "ButtonBackgroundColor": "#4C6B49",
+  "ButtonTextColor": "#FFFFFF",
+  "BadgesColors": ["#F39200", "#15497F", "#76447C", "#C54D5F", "#C8C1B9", "#A2C219"],
+  "BannerLeftPlugColor": "rgb(245, 246, 247)",
+  "BannerRightPlugColor": "rgb(245, 246, 246)",
+  "______________STATUS_BAR______________": "Status Bar",
+  "StatusBarTypeScreensWithBanner": "light-content",
+  "StatusBarTypeLoginScreens": "light-content",
+  "StatusBarTypeAllOthersScreens": "dark-content",
+  "______________LOGIN______________": "Login Parameters",
+  "EnableForgotPassword": "Yes",
+  "ContactUsText": "Need help?",
+  "ForgotPasswordLink": "https://achievinglifesambition.bowmoream.com/forgotpassword",
+  "SecretPhraseTitle": "Secret phrase",
+  "SecretPhraseDescription": "Please enter the relevant characters from your secret phrase.",
+  "______________NAVIGATION_BAR______________": "Navigation bar parameters",
+  "HomeTabName": "Home",
+  "TabSliderColor": "#4C6B49",
+  "ActiveTabColor": "#4C6B49",
+  "InactiveTabColor": "#4C6B49",
+
+  "______________BANNER______________": "Banner parameters",
+  "BannerBackgroundColor": "#4C6B49",
+  "BannerIconColor": "#FFFFFF",
+  "BannerTextColor": "#FFFFFF",
+  "AsOfOffset": 0,
+  "______________CONTACT_US______________": "Contact Screen parameters",
+  "ContactUsTitle": "Contact us",
+  "ContactUsDescription": "",
+  "ContactUsIconsColor": "#A2C219",
+  "ContactUsTextColor": "#FFFFFF",
+
+  "EmailFieldLabel": "Email",
+  "EmailFieldValue": "investments@bowmoream.com",
+  "HideEmailField": "No",
+  "PhoneFieldLabel": "Phone",
+  "PhoneFieldValue": "0203 617 9206",
+  "HidePhoneField": "No",
+  "WebsiteFieldLabel": "Website",
+  "WebsiteFieldValue": "https://www.bowmoream.com/",
+  "HideWebsiteField": "No",
+
+  "ClientPortalFieldLabel": "Portal",
+  "ClientPortalFieldValue": "https://achievinglifesambitions.bowmore.com",
+  "HideClientPortalField": "No",
+  "HeadOfficeFieldLabel": "Head Office",
+  "HeadOfficeFieldValue": "Birchin Court\n20 Birchin Lane\nLondon, UK\nEC3V 9DU",
+  "HideHeadOfficeField": "No",
+  "______________ALLOCATION_CHART______________": "Allocation Chart parameters",
+  "AllocationChartColors": [
+    "#F39200",
+    "#15497F",
+    "#C8C1B9",
+    "#C54D5F",
+    "#A2C219",
+    "#76447C",
+    "#2A3726",
+    "#9D9D9C",
+    "#DADADA",
+    "#969E87"
+  ],
+
+  "AllocationAccountsName": "Account",
+  "AllocationAccountsDescription": "Breakdown between investment products",
+
+  "AllocationAssetsName": "Asset Allocation",
+  "AllocationAssetsDescription": "Distributed across different asset allocation categories",
+
+  "AllocationGeographicName": "Geographic Region",
+  "AllocationGeographicDescription": "Distributed across different geographic regions",
+
+  "AllocationPortfolioName": "Portfolio",
+  "AllocationPortfolioDescription": "Breakdown between investment products",
+
+  "AssetAllocationFieldGroupBy": "securityCategory",
+  "GeographicRegionFieldGroupBy": "securityCategory2",
+  "AllocationPriceField": "valuationValue",
+
+  "______________PERFORMANCE_CHART______________": "Performance Chart parameters",
+  "DisablePortfolioChart": "No",
+  "DisableAccountDrillChart": "No",
+  "PercentageField": "RateOfReturnExcludingAdviserFees",
+  "PerformanceLineColour": "#00A5EF",
+  "BenchmarkLineColour": "#BA387D",
+  "PerformanceGraphDefaultRange": "1Y",
+  "PricingHistoryGraphDefaultRange": "1M",
+  "______________T&C_PRIVACY_POLICY______________": "Allocation Chart parameters",
+  "CustomerName": "BAM",
+
+  "PrivacyPolicyTitle": "Privacy policy",
+  "TermsOfConditionsTitle": "Terms of use",
+
+  "PrivacyPolicyText": "Bowmore Asset Management believes that the responsible use of personal information collected on its Web sites is critical to its business objectives and reputation. As part of our commitment to privacy, we have adopted this Online Privacy Statement.\r\n\r\nThe extent and type of information we receive from you on our external Web sites depends on the information you provide to us through our contact mailboxes and/or through the registration processes on our sites.\r\n\r\nWe only use your personally identifiable information to respond to your requests and to provide you with information about Bowmore Asset Management's services. We may send you occasional updates when new services that may be of interest to you are created.\r\n\r\nSome of our Web sites may invite you to register and provide information about yourself. We use the information you provide to personalise your online experience and to deliver the content most suited to your needs. You may email Bowmore Asset Management at any time to request that you be removed from our mailing lists.\r\n\r\nIn addition, 'cookies' (i.e. small text files placed on your computer when you visit some parts of the site) are used on some of our Web sites. Most browsers now recognise when a cookie is offered and permit you to refuse or accept it. If you are not sure whether your browser has this capability, you should check with the software manufacturer, your company's technology help desk or your Internet Service Provider.\r\n\r\nCookies are primarily used to enhance your online experience and are not used to track the navigational habits of identified visitors. If you visit our sites to read or download information, such as news stories or articles, much of the information we do collect is statistical only. We use this information about the number of visitors and their use of the sites in aggregate form to make our sites more useful and attractive to you.\r\n\r\nThe personal information you provide to us will be retained only for as long as necessary to fulfil the purposes for which the information was collected or as required by law. We do not share personal information with third parties except as necessary to carry out our business or as required by law or other legal processes, and we never sell your personal information. By submitting data through Bowmore Asset Management electronically, you are providing explicit consent to trans-border transmission of data collected via Bowmore Asset Management's Web sites.\r\n\r\nIn addition, Bowmore Asset Management has technological and operational security policies and procedures in place to protect your personally identifiable information from loss, misuse, alteration or unintentional destruction. Our personnel who have access to the data are committed to maintain the confidentiality of such information.\r\n\r\nBowmore Asset Management understands the importance of protecting children's privacy, especially in an online environment. Our sites are not intentionally designed for or directed at children under the age of 18 years. It is our policy never to knowingly collect or maintain information about anyone under the age of 18.\r\n\r\nBowmore Asset Management recognises its responsibility for protecting the online privacy of your personal information. If you have questions or comments about our administration of your personal information, please contact us at enquiries@bowmoream.com. You may also use this address to communicate any concerns you may have regarding compliance with our Online Privacy Policy.",
+  "TermsOfConditionsText": "By using this website, you indicate your agreement to be bound by these terms of use which should be read in conjunction with the Bowmore Asset Management Terms of Business which have already been agreed by you. Bowmore Asset Management takes all reasonable steps to ensure that the site is available and that the information provided is accurate and up-to-date. However, Bowmore Asset Management may rely on other sources to provide the information contained in this website. The material on this site is provided \"as is\" and Bowmore Asset Management makes no representations or warranties, express or implied, regarding the information provided on the site.\r\n\r\nCommentary and other materials on this site are not intended to amount to advice on which reliance is placed.\r\n\r\nBowmore Asset Management excludes all liability and responsibility for any amount or kind of loss or damage that may result to you or a third party (including indirect or consequential loss) in connection with this site in any way or in connection with the use, inability to use or the results of use of this site, any websites linked to this site or the material on such websites.\r\n\r\nNothing in these Terms of Use shall exclude or limit Bowmore Asset Management\u2019s liability for death or personal injury caused by Bowmore Asset Management\u2019s fraudulent misrepresentation or any liability which cannot be excluded or limited under applicable law (including without limitation consumer law).\r\n\r\nBowmore Asset Management is licensed by the London Stock Exchange (\"LSE\") to display historic data. The source of price is usually the London Stock Exchange and is provided by Pershing Securities Ltd (\"PSL\"). The LSE, PSL or Bowmore Asset Management shall have no liability for any errors in or omissions to the delayed share price information displayed, or for any action taken in reliance thereof. Prices are as at the previous day close or an indicative basis.\r\n\r\nThe information is provided solely to enable you to see the status of your portfolio and it should not be relied upon in connection with any investment decision or in order to calculate Capital Gains Tax or other calculations.\r\n\r\nYou should be aware that the Internet is not a fully reliable system of communication and that the site may be regularly withdrawn if repairs, maintenance work or new features are being introduced.\r\n\r\nBowmore Asset Management cannot warrant that this website will be free of viruses or other defects. Bowmore Asset Management will not be held responsible for any technical problems you may suffer as a result of using this website.\r\n\r\nYou undertake not to use this website for any unlawful purposes or to take any action that could undermine the site.\r\n\r\nThe pages on this website are intended for access and use by UK residents only. It is your responsibility to ensure that the use of the site is not contrary to local laws and regulations.\r\n\r\nThe content of this website is the property of Bowmore Asset Management or its licensors and is protected by copyright and intellectual property laws. You are not authorised to reproduce, re-transmit or distribute the information to anyone without the prior written consent from the relevant licensor.\r\n\r\nBowmore Asset Management reserves the right to update these Terms of Use from time to time without notice to you. Bowmore Asset Management reserves the right to deny access to this web site to anyone at any time. Please note that no technical support can be provided.\r\n\r\nBowmore Asset Management is committed to safeguarding the privacy of visitors to this website. Please read the following to understand how any information you provide to Bowmore Asset Management through the website will be treated:\r\n\r\nYou can use this website without providing any personal information. However, you may wish to provide personal information by completing the forms and submitting emails to contacts on various sections of Bowmore Asset Management\u2019s website.\r\n\r\nThe personal information you submit on Bowmore Asset Management\u2019s website will be used for the purposes apparent in the relevant part of the site and also for any other purposes for which you give your consent. Bowmore Asset Management may, on occasion, transfer your information to locations other than your country of residence. In such cases Bowmore Asset Management will endeavour to ensure that there are adequate levels of protection for your data taking into account applicable legal and regulatory requirements.\r\n\r\nFor a small fee, you have the right to apply for a copy of the information Bowmore Asset Management holds about you and to have any inaccurate information about you corrected.\r\n\r\nIf you have any questions in relation to these Terms of Use or the use of your personal data please contact:-\r\n\r\nHead of Compliance,\r\nBowmore Asset Management,\r\n\r\n\r\nIf you do not agree to any part of these terms of use, please exit the website and notify your Investment Manager.",
+
+  "PrivacyPolicyLink": "",
+  "TermsOfConditionsLink": null,
+  "PrivacyPolicyLinkText": "Terms and conditions",
+  "TermsOfConditionsLinkText": "Terms and conditions",
+  "______________FILTER_UI______________": "Filter UI parameters",
+  "FilterBadgeBackgroundColor": "#5082EA",
+  "FilterBadgeTextColor": "#fff",
+  "______________HOLDINGS______________": "Holdings parameters",
+  "ShowP&LValues": "Yes",
+  "______________HOLDINGS_DRILL______________": "Holdings Drill parameters",
+  "DisableHoldingsDrill": "No",
+  "HoldingsDrillPriceChartColor": "#F39200",
+
+  "______________TRANSACTIONS______________": "Transactions Screen parameters",
+  "TransactionsDefaultPeriod": 30,
+  "TransactionTypesMapping": [
+    {
+      "name": "Payments",
+      "types": [
+        "BACS",
+        "Cash Withdrawal",
+        "CHAPS Out",
+        "Faster Payments",
+        "Income Sweep Out",
+        "International Payment",
+        "Money Out",
+        "Outgoing Payment Charge"
+      ]
+    },
+    {
+      "name": "Movements",
+      "types": [
+        "APS ISA Subscription",
+        "Conversion - Existing Security",
+        "Converted - Resultant Security",
+        "Corporate Action - Scheme of Arrangement",
+        "From Scheme of Arrangement",
+        "Internal - Money In",
+        "Internal - Money Out",
+        "Internal Transfer In - Cash",
+        "Internal Transfer Out - Cash",
+        "ISA Subscription",
+        "Merger",
+        "Merger - Resultant Security",
+        "Transfer In - Reporting",
+        "Transfer In - Transfer from Nominees",
+        "Transfer Out - Reporting",
+        "Transfer Out - Transfer from Nominees"
+      ]
+    },
+    {
+      "name": "Trade buys",
+      "types": ["Buy", "Currency Purchase", "Purchase"]
+    },
+    {
+      "name": "Trade sale",
+      "types": [
+        "Maturity",
+        "Currency Sale",
+        "Redemption - Security",
+        "Sale - Cash",
+        "Scheme of Arrangement",
+        "Sell",
+        "Subdivision"
+      ]
+    },
+    {
+      "name": "Fees",
+      "types": ["Fee", "Initial Fee", "Intermediary Fee"]
+    },
+    {
+      "name": "Income",
+      "types": [
+        "Accumulation Dividend",
+        "Cash Adjustment",
+        "Cash Interest",
+        "Cash Management - Credit",
+        "Cash Management - Debit",
+        "Dividend",
+        "Equalisation - Cash",
+        "Equalisation - Security",
+        "Income Sweep In",
+        "Interest",
+        "ISA Tax Reclaim",
+        "Lapsed Rights",
+        "Nominal Adjustment",
+        "Trail Commission",
+        "Money In"
+      ]
+    }
+  ],
+  "TransactionSectionBannerBackgroundColor": "#f2f7f8",
+  "ShowTransactionsAllTab": "Yes",
+  "______________SETTINGS______________": "Settings Screen parameters",
+  "UserPicBackgroundColor": "#4C6B49",
+  "LogoutIconColor": "#fff",
+  "______________DOCUMENTS______________": "Documents Screen parameters",
+  "DocumentGroups": [
+    {
+      "Name": "CGT Reports",
+      "Paths": ["/Reports/CGT Reporting/", "/Reports/CGT Reporting/{YYYY}/"]
+    },
+    {
+      "Name": "Client Reporting - AdHoc",
+      "Paths": ["/Reports/Client Reporting/AdHoc/"]
+    },
+    {
+      "Name": "Consolidated Tax Pack",
+      "Paths": ["/Reports/Client Reporting/Consolidated Tax Pack/"]
+    },
+    {
+      "Name": "Valuation Pack",
+      "Paths": ["/Reports/Client Reporting/Valuation Pack/"]
+    },
+    {
+      "Name": "Other Reports",
+      "Paths": ["/Reports/Others/"]
+    },
+    {
+      "Name": "Transfers",
+      "Paths": ["/Transfers/"]
+    }
+  ],
+  "BenchmarkPercentageField": "RateOfReturn",
+  "DocumentsDefaultPeriod": 60,
+  "ShowDocumentsAllTab": "Yes",
+  "______________LOGIN_FAIL______________": "Login Fail Form parameters",
+  "LoginFailFormButtonColor": "#A2C219",
+  "LoginFailFormButtonTextColor": "#fff",
+  "______________RESET_SECRET_PHRASE_FORM______________": "Reset Secret Phrase Form parameters",
+  "ResetSecretPhraseFormTitle": "Secret phrase",
+  "ResetSecretPhraseFormDescription": "Please set a secret phrase. This phrase will be used for additional verification on login",
+  "ResetSecretPhraseFormPhrasePlaceholder": "Enter phrase",
+  "ResetSecretPhraseFormConfirmPhrasePlaceholder": "Confirm phrase",
+  "______________BADGES______________": "Badges Parameters",
+  "Badges": [
+    "if regulatory = `SIPP` then `SIPP`",
+    "if regulatory in (`Investment`,`Investments`) and product = `SIPP` then `SIPP`",
+    "if regulatory in (`Investment`,`Investments`) and not(product in (`SIPP`,`ISA (Stocks And Shares)`,`Junior ISA (Stocks And Shares)`,`Offshore Bond`)) then `GIA`",
+    "if regulatory = `ISA` then `ISA`",
+    "if regulatory in (`Investment`,`Investments`) and product = `ISA (Stocks And Shares)` then `ISA`",
+    "if regulatory = `JISA` then `JISA`",
+    "if regulatory in (`Investment`,`Investments`) and product = `Junior ISA (Stocks And Shares)` then `JISA`",
+    "if product = `Onshore Bond` then `Onshore Bond`",
+    "if regulatory = `OffshoreBond` then `Offshore Bond`",
+    "if regulatory in (`Investment`,`Investments`) and product = `Offshore Bond` then `Offshore Bond`",
+    "if regulatory = `Charity` then `Charity`"
+  ]
+}
