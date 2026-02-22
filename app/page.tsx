@@ -2,10 +2,27 @@
 
 import { useState, useRef, useCallback, useEffect } from "react";
 import { configSchema, getDefaultValues } from "@/lib/config-schema";
-import { ConfigValues } from "@/lib/types";
+import { ConfigValues, FieldType } from "@/lib/types";
 import { Sidebar } from "@/components/sidebar";
 import { Header } from "@/components/header";
 import { Section } from "@/components/section";
+
+function isEmpty(val: unknown, type: FieldType): boolean {
+  if (val === undefined || val === null) return true;
+  if (type === "string" || type === "text" || type === "color") {
+    return String(val).trim() === "";
+  }
+  if (type === "number") {
+    return val === 0 || val === "";
+  }
+  if (type === "boolean") {
+    return String(val).trim() === "";
+  }
+  if (type === "color-array" || type === "string-array" || type === "object-array") {
+    return !Array.isArray(val) || val.length === 0;
+  }
+  return false;
+}
 
 export default function Home() {
   const [values, setValues] = useState<ConfigValues>(getDefaultValues);
@@ -72,7 +89,11 @@ export default function Home() {
     for (const section of configSchema) {
       result[section.separatorKey] = section.separatorValue;
       for (const field of section.fields) {
-        result[field.key] = values[field.key];
+        const val = values[field.key];
+        if (isEmpty(val, field.type)) continue;
+        result[field.key] = field.type === "string" || field.type === "text" || field.type === "color"
+          ? String(val).trim()
+          : val;
       }
     }
     const json = JSON.stringify(result, null, 2);
